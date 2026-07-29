@@ -23,11 +23,18 @@ def show_employee_list(employees: list[Employee], business_name: str = "") -> No
             f"{format_currency(emp.monthly_total_cost):>13}"
         )
     summary = employee_summary(employees)
+    headcount = summary["headcount"]
+    avg_morale = summary["avg_morale"]
+    avg_skill = summary["avg_skill"]
+    team_budget = summary["monthly_cost"]
     print(f"  {'─' * 66}")
-    print(f"  Total: {summary['headcount']} employees  |  "
-          f"Avg Morale: {summary['avg_morale']:.0f}  |  "
-          f"Avg Skill: {summary['avg_skill']:.0f}  |  "
-          f"Total Cost: {format_currency(summary['monthly_cost'])}/mo")
+    # Display aggregate HR stats and the total team budget for the player's reference
+    print(
+        f"  Total: {headcount} employees  |  "
+        f"Avg Morale: {avg_morale:.0f}  |  "
+        f"Avg Skill: {avg_skill:.0f}  |  "
+        f"Team Budget: {format_currency(team_budget)}/mo"
+    )
     print(f"{'─' * 70}")
 
 
