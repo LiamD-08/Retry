@@ -1,0 +1,45 @@
+{
+  "prefixes": [
+    "The", "Old", "New", "Prime", "Elite", "Classic", "Golden", "Silver",
+    "Blue", "Red", "Green", "Urban", "Metro", "Pacific", "Atlantic",
+    "Summit", "Valley", "Harbor", "Highland", "Riverside"
+  ],
+  "restaurant": [
+    "Bistro", "Grill", "Kitchen", "Diner", "Café", "Eatery", "Chop House",
+    "Brasserie", "Smokehouse", "Tavern", "Canteen", "Noodle House", "Steakhouse"
+  ],
+  "retail": [
+    "Emporium", "Goods", "Trading Post", "Outlet", "Bazaar", "Shop",
+    "Depot", "Supply Co.", "Market", "Boutique", "Discount Store"
+  ],
+  "manufacturing": [
+    "Works", "Fabricators", "Industries", "Products", "Manufacturing Co.",
+    "Precision Parts", "Components Ltd.", "Metal Works", "Assembly"
+  ],
+  "services": [
+    "Solutions", "Services", "Consulting", "Group", "Associates",
+    "Partners", "Professionals", "Agency", "Specialists"
+  ],
+  "technology": [
+    "Tech", "Systems", "Software", "Digital", "Data Solutions",
+    "Networks", "Innovations", "Labs", "Platforms", "Cloud Co."
+  ],
+  "healthcare": [
+    "Medical Center", "Health Clinic", "Dental Practice", "Wellness Center",
+    "Care Clinic", "Family Practice", "Health Group", "Medical Associates"
+  ],
+  "logistics": [
+    "Freight", "Logistics", "Delivery Co.", "Transport", "Carriers",
+    "Distribution", "Haulage", "Express", "Moving & Storage"
+  ],
+  "hospitality": [
+    "Inn", "Lodge", "Suites", "Hotel", "Motel", "B&B",
+    "Guesthouse", "Manor", "Retreat", "Resort"
+  ],
+  "generic_names": [
+    "Anderson", "Bennett", "Carter", "Davis", "Edwards", "Foster",
+    "Grant", "Hayes", "Irving", "Jensen", "Kelley", "Lane",
+    "Morgan", "Nelson", "O'Brien", "Parker", "Quinn", "Reed",
+    "Stevens", "Turner", "Underwood", "Vance", "Walker", "Young"
+  ]
+}
