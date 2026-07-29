@@ -4,6 +4,7 @@ from __future__ import annotations
 import uuid
 from dataclasses import dataclass, field
 from enum import Enum
+from typing import Optional
 
 
 class EmployeeRole(Enum):
@@ -102,7 +103,3 @@ class Employee:
                 self.status = EmployeeStatus.ACTIVE
                 self.training_skill_gain = 0.0
 
-
-# Resolve Optional hint without full typing import overhead
-from typing import Optional
-Employee.__annotations__["business_id"] = Optional[str]

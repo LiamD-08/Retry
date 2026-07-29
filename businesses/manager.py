@@ -13,7 +13,7 @@ from employees.performance import (
     apply_productivity_to_capacity,
 )
 from models.business import Business, AcquisitionType, BusinessStatus
-from models.employee import Employee
+from models.employee import Employee, EmployeeStatus
 from models.financial import Ledger, Transaction, TransactionType
 from services.events import roll_event
 
@@ -318,7 +318,7 @@ class BusinessManager:
         # Terminate employees
         employees = self._get_employees(biz.id)
         for emp in employees:
-            emp.status = __import__("models.employee", fromlist=["EmployeeStatus"]).EmployeeStatus.TERMINATED
+            emp.status = EmployeeStatus.TERMINATED
 
         del self._businesses[business_id]
         return result
